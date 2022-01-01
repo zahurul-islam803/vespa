@@ -22,7 +22,7 @@ if($after_assoc['email_exist'] == 1){
        $_SESSION['login_email']=$after_assoc2['email'];
        $_SESSION['login_id']=$after_assoc2['id'];
       
-       $_SESSION['login_role']=$after_assoc2['role'];
+       $_SESSION['role']=$after_assoc2['role'];
        header('location:admin.php');
    }
    else{
